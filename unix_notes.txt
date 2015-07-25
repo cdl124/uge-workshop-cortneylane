@@ -92,3 +92,89 @@
    92  clear
    93  pwd
    94  history > moving_around.txt
+   95  ls
+   96  ls -t
+   97  ls -lt
+   98  subl moving_around.txt
+   99  ls
+  100  ls >> moving_around.txt
+  101  cd ~/Pictures
+  102  cd ~/MakeThyDay
+  103  cd ~/Pictures/MakeThyDay
+  104  ls
+  105  ls >> moving_around.txt
+  106  cd /c/Users/Cortney
+  107  clear
+  108  ls
+  109  ls -u
+  110  ls -uc
+  111  ls -c
+  112  clear
+  113  mkdir uge_workshop
+  114  ls
+  115  mv moving_around.txt ./uge_workshop/
+  116  mv ./uge_workshop/moving_around.txt ./uge_workshop_unix_notes.txt
+
+Oops! Didn't mean to make file name uge_workshop_unix_notes.txt. Had to correct it.
+
+  117  ls
+  118  mv ./uge_workshop_unix_notes.txt ./uge_workshop/unix_notes.txt
+
+Phew. Now I've made it back into uge_workshop/unix_notes.txt.
+
+  119  ls
+  120  ls ./uge_workshop
+  121  subl unix_notes.txt
+  122  subl moving_around.txt
+  123  mv ./uge_workshop/moving_around.txt ./uge_workshop/unix_notes.txt
+  124  subl uge_workshop_unix_notes.txt
+
+  126  ls
+  127  cd uge_workshop/
+
+I learned here that instead of using ./ , I simply cd into the directory containing the file I want to mv.
+
+  128  ls
+  129  subl unix_notes.txt
+  130  subl unix_notes.txt
+  131  pwd
+  132  subl unix_notes.txt
+
+Here, Sublime showed my history in the unix_notes file, rather than a blank file!
+
+  133  cd /c/Users/Cortney
+  134  git --version
+  135  git config --global user.name "Cortney Lane"
+  136  git config --global user.email "cdlane124@gmail.com"
+  137  cd uge_workshop/
+  138  pwd
+  139  git init
+  (created new repository in uge_workshop!)
+  140  git status
+  141  git add unix_notes.txt
+  142  git status
+
+  Showed that there's a new file called unix_notes.txt in the repository.
+
+  143  git commit -m "adding unix_notes, first draft"
+  144  git log
+  145  git show 205260e464be6be137cec1364a0201f44c516a36
+
+  ^^^ This is the git commit number that generated as I committed.
+
+  146  ls
+  147  ls -a
+  148  cd .git
+
+Got into the uge_workshop/.git directory
+
+  149  ls
+  150  cd ..
+
+Put me back into uge_workshop/
+
+  151  subl unix_notes.txt
+  152  history
+  153  history > unix_notes.txt
+
+Refreshed my history to show all the git stuff I did.

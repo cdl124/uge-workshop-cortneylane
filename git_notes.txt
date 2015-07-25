@@ -1,0 +1,61 @@
+Git Commands
+
+  133  cd /c/Users/Cortney
+  134  git --version
+  135  git config --global user.name "Cortney Lane"
+  136  git config --global user.email "cdlane124@gmail.com"
+  137  cd uge_workshop/
+  138  pwd
+  139  git init
+  Created a repository - only need to do once per project.
+  140  git status
+  141  git add unix_notes.txt
+  142  git status
+  The unix_notes.txt showed as being a new file in the repo.
+  143  git commit -m "adding unix_notes, first draft"
+  144  git log
+  145  git show 205260e464be6be137cec1364a0201f44c516a36
+  Showed my commit.
+  146  ls
+  147  ls -a
+  148  cd .git
+  149  ls
+  150  cd ..
+  151  subl unix_notes.txt
+  152  history
+  153  history > unix_notes.txt
+  154  subl unix_notes.txt
+  155  git show 205260e464be6be137cec1364a0201f44c516a36
+  156  git log
+  157  git branch git_notes
+  158  git branch
+  159  git checkout git_notes
+  160  git branch
+  161  touch git_notes.txt
+  162  ls
+  163  subl git_notes.txt
+  164  git status
+  165  git commit -m "added initial content to git_notes.txt"
+  166  git status
+  167  git add git_notes.txt
+  168  ls
+  169  git checkout master
+  Checks what's in master, AND puts me in the master directory.
+  170  git remote -v
+  Verified there were no SSH keys at this time.
+  171  ls -al ~/.ssh
+  Verified whether there were .ssh files on my lappy or not.
+  172  pwd
+  173  ssh-keygen -t rsa -b 4096 -C "cdlane124@gmail.com"
+  174  ssh-agent -s
+  175  eval $(ssh-agent -s)
+  176  ssh-add ~/.ssh/id_rsa
+  177  clip < ~/.ssh/id_rsa.pub
+  This copied the SSH ID to my clipboard, to paste into a new SSH key on GitHub.
+  Below, we verified SSH conection:
+  178  ssh -T git@github.com
+  179  git remote add origin git@github.com:cdl124/uge-workshop-cortneylane.git
+  180  git push -u origin master
+  181  git checkout git_notes
+  182  history > git_notes.txt
+end notes
