@@ -1,0 +1,94 @@
+    1  pwd
+    2  cd /c
+    3  pwd
+    4  ls
+    5  ls -t
+    6  ls -l
+    7  ls -lt
+    8  ls -rt
+    9  man ls
+   10  ls --help
+   11  cd /Users/Cortney
+   12  cd /c/Users/Cortney
+   13  pwd
+   14  ls
+   15  ls l
+   16  ls -l
+   17  clear
+   18  pwd
+   19  ls
+   20  cd ..
+   21  cd /Documents/
+   22  cd Documents
+   23  cd /Documents
+   24  cd ~/Documents
+   25  pwd
+   26  cd ..
+   27  cd /c/Users/Cortney
+   28  pwd
+   29  clear
+   30  ls ~
+   31  ls /
+   32  ls ~/boop.psd
+   33  ls /Pictures
+   34  ls ~
+   35  cd ~/Pictures
+   36  ls
+   37  cd ~/MakeThyDay
+   38  cd ~/PusheenWallpaper.png
+   39  cd /MakeThyDay
+   40  pwd
+   41  ls -
+   42  ls ~
+   43  pwd
+   44  clear
+   45  ls /
+   46  cd /c/Users/Cortney
+   47  pwd
+   48  cd ~/Pictures
+   49  ls /
+   50  ls
+   51  ls ~/MakeThyDay
+   52  ls ~/Pictures/MakeThyDay
+   53  cd ~/MTD_Website.JPG
+   54  cd ~/MakeThyDay/MTD_Website.JPG
+   55  cd ~/MakeThyDay
+   56  cd /c/Users/Cortney
+   57  clear
+   58  pwd
+   59  ls
+   60  ls ~
+   61  cd ~/Pictures
+   62  ls
+   63  ls ~
+   64  pwd
+   65  cd ~/Artwork
+   66  cd ~/Pictures/Artwork
+   67  pwd
+   68  ls
+   69  ls -
+   70  ls -t
+   71  cd /c/Users/Cortney
+   72  clear
+   73  pwd
+   74  ls
+   75  cd ~/Pictures
+   76  ls
+   77  cd ~/MakeThyDay
+   78  cd /Pictures/MakeThyDay
+   79  cd ~/Pictures/MakeThyDay
+   80  ls ..
+   81  ls
+   82  cd /c/Users/Cortney
+   83  pwd
+   84  clear
+   85  history
+   86  history 74
+   87  history | less
+   88  clear
+   89  history
+   90  clear
+   91  history | less
+   92  clear
+   93  pwd
+   94  history > moving_around.txt
