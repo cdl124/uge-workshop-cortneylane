@@ -1,4 +1,6 @@
-    1  pwd
+  buhhh 
+
+ 1  pwd
     2  cd /c
     3  pwd
     4  ls
